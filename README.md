@@ -1,0 +1,8 @@
+How can I ensure that my code, program, or software is functional and secure?
+Throughout the creation of this software I ensured that the program was functional and secure by using JUnit and the Assserts keyword to test functionality. When testing a function we would follow the same lines of logic that you would on regular object initialization, and then using the various method calls available through the JUnit class we check to ensure that the function initialized correctly and is in memory.
+
+How do I interpret user needs and incorporate them into a program?
+Interpretting user needs can be a challenging situation when a user requirement goes beyond simple explaination. For example, someone might request that the program use an in memory data type, for you as the programmer that can mean a variety of different things. You might need to use a HashMap to allow for O(1) lookup time. If time complexity isn't your main concern then maybe you want to use something like an Array for simple use and comprehension. Where user requirements end, interpretation begins. 
+
+How do I approach designing software?
+I approach designing software in the same way that you would a book, or written medium. Iteration is the key, while testing and writing are simple it's the bias present in your testing and practices that often gets you. A good design is often an iterative one, that takes time and allows for a fresh pair of eyes at every step. Blasting through progress looks great on paper, until a simple regex expression breaks your database, then you're going to wish you moved slower. Testing and writing is easier with automation tools, and this allows for more consideration on the smaller things. 
